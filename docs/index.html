@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Document</title>
+		<!-- <embed src="./sad.mp3" autostart="true" loop="true" hidden="true" /> -->
+		<embed type="audio/mpeg" src="./sad.mp3" autostart="true" hidden="true" />
+	</head>
+	<body>
+		<!-- <audio autoplay controls>
+			<source autoplay src="./sad.mp3" type="audio/ogg" />
+			<source autoplay src="./sad.mp3" type="audio/mpeg" />
+			<source autoplay src="./sad.mp3" type="audio/wav" />
+		</audio> -->
+
+		<h1 class="text">Yuliza Yunez De Torrs</h1>
+		<p>Reproduce el audio antes de leer por favor...</p>
+		<audio autoplay="autoplay" loop="loop">
+			<source autoplay src="./sad.mp3" type="audio/ogg" />
+			<source autoplay src="./sad.mp3" type="audio/mpeg" />
+			<source autoplay src="./sad.mp3" type="audio/wav" />
+		</audio>
+		<div class="container animated fadeIn">
+			<p id="texto"></p>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
